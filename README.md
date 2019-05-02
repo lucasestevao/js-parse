@@ -2,9 +2,7 @@
 
 Parsing a server response transforming values into attributes using `map` and `reduce`.
 
-## Scenario:
-
-### Server Response
+## Server Response
 
 Considering I have the json server response below, I want to have a function to return an object with the attibutes found in the `field` with its respective values.
 
@@ -41,7 +39,7 @@ e.g: the object must have an attribute `name` with the value `lucas`.
 }
 ```
 
-### Parser
+## Parser
 
 ```
 
@@ -55,7 +53,7 @@ const parser = response => {
 
 ```
 
-### Result
+## Result
 
 ```
 
@@ -65,3 +63,7 @@ console.log(result.name) // lucas
 console.log(result.age) // 28
 
 ```
+
+## Try it out
+
+[https://codepen.io/lucasestevao/pen/dLxZVy](https://codepen.io/lucasestevao/pen/dLxZVy)
